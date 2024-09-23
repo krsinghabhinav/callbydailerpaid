@@ -27,7 +27,7 @@ class CallScreenState extends State<CallScreen> {
   Uri dualnumber = Uri(scheme: 'tel', path: '7525827482');
 
   callnumbere() {
-    launchUrl(dualnumber);
+    launchUrl(dualnumber); 
   }
 
   @override
